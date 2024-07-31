@@ -1,0 +1,10 @@
+com.aitech.atak.AnyaPlugin.plugin.app-release-0 /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/build-types/release/res
+com.aitech.atak.AnyaPlugin.plugin.app-gov-1 /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/build/generated/res/pngs/gov/release
+com.aitech.atak.AnyaPlugin.plugin.app-gov-2 /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/build/generated/res/resValues/gov/release
+com.aitech.atak.AnyaPlugin.plugin.app-gov-3 /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/build/generated/res/rs/gov/release
+com.aitech.atak.AnyaPlugin.plugin.app-mergeGovReleaseResources-4 /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/build/intermediates/incremental/govRelease/mergeGovReleaseResources/merged.dir
+com.aitech.atak.AnyaPlugin.plugin.app-mergeGovReleaseResources-5 /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/build/intermediates/incremental/govRelease/mergeGovReleaseResources/stripped.dir
+com.aitech.atak.AnyaPlugin.plugin.app-merged_res-6 /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/build/intermediates/merged_res/govRelease
+com.aitech.atak.AnyaPlugin.plugin.app-gov-7 /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/gov/res
+com.aitech.atak.AnyaPlugin.plugin.app-govRelease-8 /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/govRelease/res
+com.aitech.atak.AnyaPlugin.plugin.app-main-9 /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/res

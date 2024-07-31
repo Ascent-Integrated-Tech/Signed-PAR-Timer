@@ -1,0 +1,2 @@
+#- File Locator -
+listingFile=../../../outputs/apk/esp/release/output-metadata.json

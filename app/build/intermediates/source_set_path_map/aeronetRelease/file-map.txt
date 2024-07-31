@@ -1,0 +1,10 @@
+com.aitech.atak.AnyaPlugin.plugin.app-release-0 /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/build-types/release/res
+com.aitech.atak.AnyaPlugin.plugin.app-aeronet-1 /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/build/generated/res/pngs/aeronet/release
+com.aitech.atak.AnyaPlugin.plugin.app-aeronet-2 /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/build/generated/res/resValues/aeronet/release
+com.aitech.atak.AnyaPlugin.plugin.app-aeronet-3 /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/build/generated/res/rs/aeronet/release
+com.aitech.atak.AnyaPlugin.plugin.app-mergeAeronetReleaseResources-4 /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/build/intermediates/incremental/aeronetRelease/mergeAeronetReleaseResources/merged.dir
+com.aitech.atak.AnyaPlugin.plugin.app-mergeAeronetReleaseResources-5 /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/build/intermediates/incremental/aeronetRelease/mergeAeronetReleaseResources/stripped.dir
+com.aitech.atak.AnyaPlugin.plugin.app-merged_res-6 /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/build/intermediates/merged_res/aeronetRelease
+com.aitech.atak.AnyaPlugin.plugin.app-aeronet-7 /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/aeronet/res
+com.aitech.atak.AnyaPlugin.plugin.app-aeronetRelease-8 /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/aeronetRelease/res
+com.aitech.atak.AnyaPlugin.plugin.app-main-9 /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/res

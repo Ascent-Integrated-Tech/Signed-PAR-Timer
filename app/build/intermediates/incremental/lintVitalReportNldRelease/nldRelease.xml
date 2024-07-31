@@ -1,0 +1,56 @@
+<variant
+    name="nldRelease"
+    package="com.aitech.atak.AnyaPlugin.plugin"
+    minSdkVersion="24"
+    targetSdkVersion="33"
+    shrinking="true"
+    mergedManifest="build/intermediates/merged_manifest/nldRelease/AndroidManifest.xml"
+    manifestMergeReport="build/outputs/logs/manifest-merger-nld-release-report.txt"
+    proguardFiles="proguard-gradle.txt:proguard-gradle-repackage.txt"
+    partialResultsDir="build/intermediates/lint_vital_partial_results/nldRelease/out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin"
+        resDirectories="src/main/res"
+        assetsDirectories="src/main/assets"/>
+    <sourceProvider
+        manifest="src/nld/AndroidManifest.xml"
+        javaDirectories="src/nld/java:src/nld/kotlin"
+        resDirectories="src/nld/res"
+        assetsDirectories="src/nld/assets"/>
+    <sourceProvider
+        manifest="build-types/release/AndroidManifest.xml"
+        javaDirectories="build-types/release/java:build-types/release/kotlin"
+        resDirectories="build-types/release/res"
+        assetsDirectories="build-types/release/assets"/>
+    <sourceProvider
+        manifest="src/nldRelease/AndroidManifest.xml"
+        javaDirectories="src/nldRelease/java:src/nldRelease/kotlin"
+        resDirectories="src/nldRelease/res"
+        assetsDirectories="src/nldRelease/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <resValues>
+    <resValue
+        type="string"
+        name="versionName"
+        value="0.8 (59a3ec1f) - [5.1.0]" />
+  </resValues>
+  <manifestPlaceholders>
+    <placeholder
+        name="atakApiVersion"
+        value="com.atakmap.app@5.1.0.NLD" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="build/intermediates/javac/nldRelease/classes:build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/nldRelease/R.jar"
+      applicationId="com.aitech.atak.AnyaPlugin.plugin.nld"
+      generatedSourceFolders="build/generated/ap_generated_sources/nldRelease/out:build/generated/aidl_source_output_dir/nldRelease/out:build/generated/source/buildConfig/nld/release:build/generated/renderscript_source_output_dir/nldRelease/out"
+      generatedResourceFolders="build/generated/res/rs/nld/release:build/generated/res/resValues/nld/release">
+  </mainArtifact>
+</variant>

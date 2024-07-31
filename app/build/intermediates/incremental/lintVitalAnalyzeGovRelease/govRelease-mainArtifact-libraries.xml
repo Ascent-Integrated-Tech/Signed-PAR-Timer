@@ -1,0 +1,20 @@
+<libraries>
+  <library
+      name="__local_aars__:/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/main.jar:unspecified@jar"
+      jars="/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/main.jar"
+      resolved="__local_aars__:/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/main.jar:unspecified"
+      provided="true"/>
+  <library
+      name=":takdevlint:@aar"
+      jars="/Users/tristin/.gradle/caches/transforms-3/f25f8f6c9eca2029a0f44fc2c1518135/transformed/takdevlint/jars/classes.jar"
+      resolved=":takdevlint:"
+      folder="/Users/tristin/.gradle/caches/transforms-3/f25f8f6c9eca2029a0f44fc2c1518135/transformed/takdevlint"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+</libraries>

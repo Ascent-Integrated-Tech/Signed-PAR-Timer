@@ -1,0 +1,98 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.aitech.atak.AnyaPlugin.plugin.app-merged_res-6:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "6,10,15,22,4,2,30",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "202,324,439,664,111,33,849",
+                        "endLines": "9,13,21,28,4,2,30",
+                        "endColumns": "19,19,19,19,89,52,80",
+                        "endOffsets": "319,433,659,843,196,81,925"
+                    },
+                    "to": {
+                        "startLines": "2,6,10,17,32,33,34",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,177,291,516,1050,1140,1193",
+                        "endLines": "5,9,16,23,32,33,34",
+                        "endColumns": "19,19,19,19,89,52,80",
+                        "endOffsets": "172,286,511,695,1135,1188,1269"
+                    }
+                },
+                {
+                    "source": "/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/res/values/dimen.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "196,236",
+                        "endColumns": "39,40",
+                        "endOffsets": "231,272"
+                    },
+                    "to": {
+                        "startLines": "30,31",
+                        "startColumns": "4,4",
+                        "startOffsets": "969,1009",
+                        "endColumns": "39,40",
+                        "endOffsets": "1004,1045"
+                    }
+                },
+                {
+                    "source": "/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/res/values/color.xml",
+                    "from": {
+                        "startLines": "8,5,7,9,11,4",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "219,120,167,259,305,80",
+                        "endColumns": "39,45,51,44,45,39",
+                        "endOffsets": "254,161,214,299,346,115"
+                    },
+                    "to": {
+                        "startLines": "24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "700,740,786,838,883,929",
+                        "endColumns": "39,45,51,44,45,39",
+                        "endOffsets": "735,781,833,878,924,964"
+                    }
+                },
+                {
+                    "source": "/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "75,10,71,92,20,52,61,84,2,104,96",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3441,327,3302,4307,868,2444,2768,3947,17,4752,4448",
+                        "endLines": "81,17,73,94,45,58,68,88,7,114,100",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "3837,861,3435,4442,2268,2730,3295,4218,289,5335,4694"
+                    },
+                    "to": {
+                        "startLines": "36,43,51,54,57,71,74,82,87,93,104",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1360,1537,2076,2214,2354,2917,3000,3532,3808,4085,4673",
+                        "endLines": "42,50,53,56,70,73,81,86,92,103,108",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "1532,2071,2209,2349,2912,2995,3527,3803,4080,4668,4919"
+                    }
+                },
+                {
+                    "source": "/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/build/generated/res/resValues/hun/release/values/gradleResValues.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "150",
+                        "endColumns": "85",
+                        "endOffsets": "231"
+                    },
+                    "to": {
+                        "startLines": "35",
+                        "startColumns": "4",
+                        "startOffsets": "1274",
+                        "endColumns": "85",
+                        "endOffsets": "1355"
+                    }
+                }
+            ]
+        }
+    ]
+}

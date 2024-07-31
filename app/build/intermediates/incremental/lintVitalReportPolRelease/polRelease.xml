@@ -1,0 +1,56 @@
+<variant
+    name="polRelease"
+    package="com.aitech.atak.AnyaPlugin.plugin"
+    minSdkVersion="24"
+    targetSdkVersion="33"
+    shrinking="true"
+    mergedManifest="build/intermediates/merged_manifest/polRelease/AndroidManifest.xml"
+    manifestMergeReport="build/outputs/logs/manifest-merger-pol-release-report.txt"
+    proguardFiles="proguard-gradle.txt:proguard-gradle-repackage.txt"
+    partialResultsDir="build/intermediates/lint_vital_partial_results/polRelease/out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin"
+        resDirectories="src/main/res"
+        assetsDirectories="src/main/assets"/>
+    <sourceProvider
+        manifest="src/pol/AndroidManifest.xml"
+        javaDirectories="src/pol/java:src/pol/kotlin"
+        resDirectories="src/pol/res"
+        assetsDirectories="src/pol/assets"/>
+    <sourceProvider
+        manifest="build-types/release/AndroidManifest.xml"
+        javaDirectories="build-types/release/java:build-types/release/kotlin"
+        resDirectories="build-types/release/res"
+        assetsDirectories="build-types/release/assets"/>
+    <sourceProvider
+        manifest="src/polRelease/AndroidManifest.xml"
+        javaDirectories="src/polRelease/java:src/polRelease/kotlin"
+        resDirectories="src/polRelease/res"
+        assetsDirectories="src/polRelease/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <resValues>
+    <resValue
+        type="string"
+        name="versionName"
+        value="0.8 (59a3ec1f) - [5.1.0]" />
+  </resValues>
+  <manifestPlaceholders>
+    <placeholder
+        name="atakApiVersion"
+        value="com.atakmap.app@5.1.0.POL" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="build/intermediates/javac/polRelease/classes:build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/polRelease/R.jar"
+      applicationId="com.aitech.atak.AnyaPlugin.plugin.pol"
+      generatedSourceFolders="build/generated/ap_generated_sources/polRelease/out:build/generated/aidl_source_output_dir/polRelease/out:build/generated/source/buildConfig/pol/release:build/generated/renderscript_source_output_dir/polRelease/out"
+      generatedResourceFolders="build/generated/res/rs/pol/release:build/generated/res/resValues/pol/release">
+  </mainArtifact>
+</variant>

@@ -1,0 +1,268 @@
+# compiler: R8
+# compiler_version: 4.0.52
+# min_api: 24
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.1"}
+# pg_map_id: 0c94a25
+# pg_map_hash: SHA-256 0c94a254aed501757c49649a729d484ddb63e7471ed1ead79118f166040d85df
+com.aitech.atak.AnyaPlugin.AnyaPluginComponent -> atakplugin.AnyaPlugin-main.d:
+    android.content.Context pluginContext -> a
+    android.content.BroadcastReceiver broadcastReceiver -> k
+    boolean isRunning -> i
+    android.widget.RelativeLayout mapParent -> c
+    long elapsedTime -> h
+    long startTime -> g
+    com.atakmap.android.maps.MapView mapView -> j
+    com.aitech.atak.AnyaPlugin.plugin.AnyaPluginPreferenceFragment preferenceFragment -> l
+    java.lang.String TAG -> s
+    gov.tak.api.ui.IHostUIService uiService -> p
+    java.lang.String TOGGLE_OVERLAY_VIEW -> t
+    android.os.Handler handler -> e
+    gov.tak.api.plugin.IServiceController serviceController -> q
+    android.widget.TextView timerTextView -> d
+    java.lang.Runnable runnable -> f
+    android.content.SharedPreferences sharedPref -> n
+    android.view.View overlayView -> b
+    gov.tak.api.ui.ToolbarItem toolbarItem -> o
+    int timerLength -> r
+    android.content.BroadcastReceiver openPreferencesReceiver -> m
+    1:5:void <init>(gov.tak.api.plugin.IServiceController):64:64 -> <init>
+    6:7:void <init>(gov.tak.api.plugin.IServiceController):68:68 -> <init>
+    8:18:void <init>(gov.tak.api.plugin.IServiceController):69:69 -> <init>
+    19:26:void <init>(gov.tak.api.plugin.IServiceController):70:70 -> <init>
+    27:34:void <init>(gov.tak.api.plugin.IServiceController):66:66 -> <init>
+    void $r8$lambda$YobPeCk6M1_OL64FFD2-TvysuwM(com.aitech.atak.AnyaPlugin.AnyaPluginComponent,android.content.SharedPreferences,java.lang.String) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    void $r8$lambda$z93HwJwsj25_U-BPCS-b1NoJiXw(com.aitech.atak.AnyaPlugin.AnyaPluginComponent,android.content.SharedPreferences,java.lang.String) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:65535:boolean access$000(com.aitech.atak.AnyaPlugin.AnyaPluginComponent):39:39 -> c
+    0:65535:long access$100(com.aitech.atak.AnyaPlugin.AnyaPluginComponent):39:39 -> d
+    0:65535:void access$1000(com.aitech.atak.AnyaPlugin.AnyaPluginComponent):39:39 -> e
+    0:65535:long access$200(com.aitech.atak.AnyaPlugin.AnyaPluginComponent):39:39 -> f
+    0:65535:android.widget.TextView access$300(com.aitech.atak.AnyaPlugin.AnyaPluginComponent):39:39 -> g
+    0:65535:int access$400(com.aitech.atak.AnyaPlugin.AnyaPluginComponent):39:39 -> h
+    0:65535:void access$500(com.aitech.atak.AnyaPlugin.AnyaPluginComponent,java.lang.String):39:39 -> i
+    0:65535:android.os.Handler access$600(com.aitech.atak.AnyaPlugin.AnyaPluginComponent):39:39 -> j
+    0:65535:void access$700(com.aitech.atak.AnyaPlugin.AnyaPluginComponent):39:39 -> k
+    0:65535:void access$800(com.aitech.atak.AnyaPlugin.AnyaPluginComponent):39:39 -> l
+    0:65535:void access$900(com.aitech.atak.AnyaPlugin.AnyaPluginComponent):39:39 -> m
+    3:10:void lambda$onCreate$0(android.content.SharedPreferences,java.lang.String):136:136 -> n
+    11:20:void lambda$onCreate$0(android.content.SharedPreferences,java.lang.String):137:137 -> n
+    21:50:void lambda$onCreate$0(android.content.SharedPreferences,java.lang.String):138:138 -> n
+    3:10:void lambda$onDestroyImpl$1(android.content.SharedPreferences,java.lang.String):315:315 -> o
+    11:20:void lambda$onDestroyImpl$1(android.content.SharedPreferences,java.lang.String):316:316 -> o
+    21:50:void lambda$onDestroyImpl$1(android.content.SharedPreferences,java.lang.String):317:317 -> o
+    1:4:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):81:84 -> onCreate
+    5:5:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):86:86 -> onCreate
+    6:6:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):88:88 -> onCreate
+    7:7:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):92:92 -> onCreate
+    8:8:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):94:94 -> onCreate
+    9:9:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):98:98 -> onCreate
+    10:12:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):101:103 -> onCreate
+    13:15:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):105:107 -> onCreate
+    16:16:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):109:109 -> onCreate
+    17:18:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):112:113 -> onCreate
+    19:19:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):115:115 -> onCreate
+    20:20:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):114:114 -> onCreate
+    21:21:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):118:118 -> onCreate
+    22:22:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):124:124 -> onCreate
+    23:25:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):130:132 -> onCreate
+    26:26:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):135:135 -> onCreate
+    27:27:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):142:142 -> onCreate
+    28:29:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):164:165 -> onCreate
+    30:31:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):172:173 -> onCreate
+    32:33:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):180:181 -> onCreate
+    34:35:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):188:189 -> onCreate
+    36:39:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):196:199 -> onCreate
+    40:40:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):202:202 -> onCreate
+    41:41:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):204:204 -> onCreate
+    42:42:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):207:207 -> onCreate
+    43:43:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView):202:202 -> onCreate
+    5:7:void onDestroyImpl(android.content.Context,com.atakmap.android.maps.MapView):303:303 -> onDestroyImpl
+    8:15:void onDestroyImpl(android.content.Context,com.atakmap.android.maps.MapView):304:304 -> onDestroyImpl
+    16:18:void onDestroyImpl(android.content.Context,com.atakmap.android.maps.MapView):305:305 -> onDestroyImpl
+    19:22:void onDestroyImpl(android.content.Context,com.atakmap.android.maps.MapView):307:307 -> onDestroyImpl
+    23:27:void onDestroyImpl(android.content.Context,com.atakmap.android.maps.MapView):308:308 -> onDestroyImpl
+    28:32:void onDestroyImpl(android.content.Context,com.atakmap.android.maps.MapView):310:310 -> onDestroyImpl
+    33:36:void onDestroyImpl(android.content.Context,com.atakmap.android.maps.MapView):313:313 -> onDestroyImpl
+    37:45:void onDestroyImpl(android.content.Context,com.atakmap.android.maps.MapView):314:314 -> onDestroyImpl
+    1:3:void onStart(android.content.Context,com.atakmap.android.maps.MapView):273:273 -> onStart
+    4:17:void onStart(android.content.Context,com.atakmap.android.maps.MapView):275:275 -> onStart
+    18:23:void onStart(android.content.Context,com.atakmap.android.maps.MapView):277:277 -> onStart
+    1:3:void onStop(android.content.Context,com.atakmap.android.maps.MapView):283:283 -> onStop
+    4:7:void onStop(android.content.Context,com.atakmap.android.maps.MapView):285:285 -> onStop
+    8:13:void onStop(android.content.Context,com.atakmap.android.maps.MapView):286:286 -> onStop
+    1:4:void pauseTimer():247:247 -> p
+    5:11:void pauseTimer():248:248 -> p
+    12:24:void pauseTimer():249:249 -> p
+    25:27:void pauseTimer():250:250 -> p
+    3:4:void resetTimer():264:264 -> q
+    5:11:void resetTimer():265:265 -> q
+    12:15:void resetTimer():266:266 -> q
+    16:22:void resetTimer():267:267 -> q
+    1:4:void startTimer():239:239 -> r
+    5:10:void startTimer():240:240 -> r
+    11:18:void startTimer():241:241 -> r
+    19:21:void startTimer():242:242 -> r
+    1:4:void stopTimer():255:255 -> s
+    5:12:void stopTimer():256:256 -> s
+    13:16:void stopTimer():257:257 -> s
+    17:18:void stopTimer():259:259 -> s
+    19:26:void stopTimer():260:260 -> s
+    1:8:void toggleOverlay():223:223 -> t
+    9:14:void toggleOverlay():224:224 -> t
+    15:17:void toggleOverlay():228:228 -> t
+    18:25:void toggleOverlay():229:229 -> t
+    26:33:void toggleOverlay():230:230 -> t
+    34:37:void toggleOverlay():231:231 -> t
+    38:45:void toggleOverlay():233:233 -> t
+    46:49:void toggleOverlay():234:234 -> t
+    5:7:void triggerReminderAlert(java.lang.String):214:214 -> u
+    8:9:void triggerReminderAlert(java.lang.String):216:216 -> u
+    10:16:void triggerReminderAlert(java.lang.String):217:217 -> u
+    17:24:void triggerReminderAlert(java.lang.String):218:218 -> u
+    25:33:void triggerReminderAlert(java.lang.String):219:219 -> u
+com.aitech.atak.AnyaPlugin.AnyaPluginComponent$$ExternalSyntheticApiModelOutline0 -> atakplugin.AnyaPlugin-main.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.content.Intent com.aitech.atak.AnyaPlugin.AnyaPluginComponent$$InternalSyntheticApiModelOutline$1$86609c361ed33e5a354986814bb733afd3ffbd6eb19342b40ab2d14a37f11684$1.m(android.content.Context,android.content.BroadcastReceiver,android.content.IntentFilter,int) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.aitech.atak.AnyaPlugin.AnyaPluginComponent$$ExternalSyntheticLambda1 -> atakplugin.AnyaPlugin-main.b:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.aitech.atak.AnyaPlugin.AnyaPluginComponent com.aitech.atak.AnyaPlugin.AnyaPluginComponent$$InternalSyntheticLambda$1$86609c361ed33e5a354986814bb733afd3ffbd6eb19342b40ab2d14a37f11684$0.f$0 -> a
+    void com.aitech.atak.AnyaPlugin.AnyaPluginComponent$$InternalSyntheticLambda$1$86609c361ed33e5a354986814bb733afd3ffbd6eb19342b40ab2d14a37f11684$0.<init>(com.aitech.atak.AnyaPlugin.AnyaPluginComponent) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.aitech.atak.AnyaPlugin.AnyaPluginComponent$$InternalSyntheticLambda$1$86609c361ed33e5a354986814bb733afd3ffbd6eb19342b40ab2d14a37f11684$0.onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
+      # {"id":"com.android.tools.r8.synthesized"}
+com.aitech.atak.AnyaPlugin.AnyaPluginComponent$$ExternalSyntheticLambda2 -> atakplugin.AnyaPlugin-main.c:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.aitech.atak.AnyaPlugin.AnyaPluginComponent com.aitech.atak.AnyaPlugin.AnyaPluginComponent$$InternalSyntheticLambda$1$f914afbaa2781e0b1dd350deba9d60c43996469d4b2b12dd53bba489bd69dfc9$0.f$0 -> a
+    void com.aitech.atak.AnyaPlugin.AnyaPluginComponent$$InternalSyntheticLambda$1$f914afbaa2781e0b1dd350deba9d60c43996469d4b2b12dd53bba489bd69dfc9$0.<init>(com.aitech.atak.AnyaPlugin.AnyaPluginComponent) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.aitech.atak.AnyaPlugin.AnyaPluginComponent$$InternalSyntheticLambda$1$f914afbaa2781e0b1dd350deba9d60c43996469d4b2b12dd53bba489bd69dfc9$0.onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
+      # {"id":"com.android.tools.r8.synthesized"}
+com.aitech.atak.AnyaPlugin.AnyaPluginComponent$1 -> atakplugin.AnyaPlugin-main.d$a:
+    com.aitech.atak.AnyaPlugin.AnyaPluginComponent this$0 -> a
+    0:65535:void <init>(com.aitech.atak.AnyaPlugin.AnyaPluginComponent):70:70 -> <init>
+    5:7:void onReceive(android.content.Context,android.content.Intent):73:73 -> onReceive
+    8:13:void onReceive(android.content.Context,android.content.Intent):74:74 -> onReceive
+com.aitech.atak.AnyaPlugin.AnyaPluginComponent$2 -> atakplugin.AnyaPlugin-main.d$b:
+    com.aitech.atak.AnyaPlugin.AnyaPluginComponent this$0 -> a
+    0:65535:void <init>(com.aitech.atak.AnyaPlugin.AnyaPluginComponent):118:118 -> <init>
+    0:65535:void onClick(gov.tak.api.ui.ToolbarItem):121:121 -> onClick
+com.aitech.atak.AnyaPlugin.AnyaPluginComponent$3 -> atakplugin.AnyaPlugin-main.d$c:
+    com.aitech.atak.AnyaPlugin.AnyaPluginComponent this$0 -> a
+    0:65535:void <init>(com.aitech.atak.AnyaPlugin.AnyaPluginComponent):142:142 -> <init>
+    1:6:void run():145:150 -> run
+    7:7:void run():152:152 -> run
+    8:10:void run():154:156 -> run
+    11:11:void run():159:159 -> run
+com.aitech.atak.AnyaPlugin.AnyaPluginComponent$4 -> atakplugin.AnyaPlugin-main.d$d:
+    com.aitech.atak.AnyaPlugin.AnyaPluginComponent this$0 -> a
+    0:65535:void <init>(com.aitech.atak.AnyaPlugin.AnyaPluginComponent):165:165 -> <init>
+    0:65535:void onClick(android.view.View):168:168 -> onClick
+com.aitech.atak.AnyaPlugin.AnyaPluginComponent$5 -> atakplugin.AnyaPlugin-main.d$e:
+    com.aitech.atak.AnyaPlugin.AnyaPluginComponent this$0 -> a
+    0:65535:void <init>(com.aitech.atak.AnyaPlugin.AnyaPluginComponent):173:173 -> <init>
+    0:65535:void onClick(android.view.View):176:176 -> onClick
+com.aitech.atak.AnyaPlugin.AnyaPluginComponent$6 -> atakplugin.AnyaPlugin-main.d$f:
+    com.aitech.atak.AnyaPlugin.AnyaPluginComponent this$0 -> a
+    0:65535:void <init>(com.aitech.atak.AnyaPlugin.AnyaPluginComponent):181:181 -> <init>
+    0:65535:void onClick(android.view.View):184:184 -> onClick
+com.aitech.atak.AnyaPlugin.AnyaPluginComponent$7 -> atakplugin.AnyaPlugin-main.d$g:
+    com.aitech.atak.AnyaPlugin.AnyaPluginComponent this$0 -> a
+    0:65535:void <init>(com.aitech.atak.AnyaPlugin.AnyaPluginComponent):189:189 -> <init>
+    0:65535:void onClick(android.view.View):192:192 -> onClick
+com.aitech.atak.AnyaPlugin.AnyaPluginDropDownReceiver -> atakplugin.AnyaPlugin-main.e:
+    android.view.View AltView -> a
+    java.lang.String SHOW_LAYOUT -> c
+    java.lang.String TAG -> b
+    1:7:void <init>(com.atakmap.android.maps.MapView,android.content.Context):23:23 -> <init>
+    8:13:void <init>(com.atakmap.android.maps.MapView,android.content.Context):24:24 -> <init>
+    14:20:void <init>(com.atakmap.android.maps.MapView,android.content.Context):25:25 -> <init>
+    1:4:void onReceive(android.content.Context,android.content.Intent):35:35 -> onReceive
+    5:31:void onReceive(android.content.Context,android.content.Intent):36:36 -> onReceive
+    32:38:void onReceive(android.content.Context,android.content.Intent):41:41 -> onReceive
+    39:59:void onReceive(android.content.Context,android.content.Intent):43:43 -> onReceive
+    60:63:void onReceive(android.content.Context,android.content.Intent):44:44 -> onReceive
+com.aitech.atak.AnyaPlugin.AnyaPluginTool -> com.aitech.atak.AnyaPlugin.AnyaPluginTool:
+    4:7:void <init>(android.content.Context):14:14 -> <init>
+    8:14:void <init>(android.content.Context):15:15 -> <init>
+    15:22:void <init>(android.content.Context):16:16 -> <init>
+    23:26:void <init>(android.content.Context):12:12 -> <init>
+    0:65535:android.graphics.drawable.Drawable getDrawable(android.content.Context,int):22:22 -> a
+com.aitech.atak.AnyaPlugin.plugin.AnyaPluginPreferenceFragment -> atakplugin.AnyaPlugin-main.g:
+    android.content.Context staticPluginContext -> b
+    android.os.Handler handler -> a
+    java.lang.String TAG -> c
+    1:2:void <init>():28:29 -> <init>
+    3:5:void <init>(android.content.Context):34:36 -> <init>
+    boolean $r8$lambda$YSUXm8-KR9aLB9xQlj3Jt4fZilo(android.preference.Preference,java.lang.Object) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:2:boolean lambda$onCreate$0(android.preference.Preference,java.lang.Object):46:46 -> b
+    3:8:boolean lambda$onCreate$0(android.preference.Preference,java.lang.Object):47:47 -> b
+    9:14:boolean lambda$onCreate$0(android.preference.Preference,java.lang.Object):48:48 -> b
+    15:17:boolean lambda$onCreate$0(android.preference.Preference,java.lang.Object):49:49 -> b
+    18:20:boolean lambda$onCreate$0(android.preference.Preference,java.lang.Object):50:50 -> b
+    21:44:boolean lambda$onCreate$0(android.preference.Preference,java.lang.Object):52:52 -> b
+    0:65535:void show(android.preference.PreferenceFragment):58:58 -> c
+    1:7:void onCreate(android.os.Bundle):41:41 -> onCreate
+    8:12:void onCreate(android.os.Bundle):42:42 -> onCreate
+    13:25:void onCreate(android.os.Bundle):45:45 -> onCreate
+com.aitech.atak.AnyaPlugin.plugin.AnyaPluginPreferenceFragment$$ExternalSyntheticLambda0 -> atakplugin.AnyaPlugin-main.f:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.aitech.atak.AnyaPlugin.plugin.AnyaPluginPreferenceFragment$$InternalSyntheticLambda$1$1061b61306e8bb82c52e59c2320571a60de2a35982fcbfdf14294918b55a98fd$0.<init>() -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean com.aitech.atak.AnyaPlugin.plugin.AnyaPluginPreferenceFragment$$InternalSyntheticLambda$1$1061b61306e8bb82c52e59c2320571a60de2a35982fcbfdf14294918b55a98fd$0.onPreferenceChange(android.preference.Preference,java.lang.Object) -> onPreferenceChange
+      # {"id":"com.android.tools.r8.synthesized"}
+com.aitech.atak.AnyaPlugin.plugin.BuildConfig -> atakplugin.AnyaPlugin-main.i:
+    java.lang.String ATAK_PACKAGE_NAME -> g
+    java.lang.String VERSION_NAME -> f
+    int VERSION_CODE -> e
+    boolean DEBUG -> a
+    java.lang.String BUILD_TYPE -> c
+    java.lang.String APPLICATION_ID -> b
+    java.lang.String FLAVOR -> d
+    0:65535:void <init>():6:6 -> <init>
+com.aitech.atak.AnyaPlugin.plugin.PluginNativeLoader -> atakplugin.AnyaPlugin-main.j:
+    java.lang.String TAG -> a
+    java.lang.String ndl -> b
+    0:65535:void <init>():10:10 -> <init>
+    4:7:void init(android.content.Context):22:22 -> a
+    8:11:void init(android.content.Context):24:24 -> a
+    12:25:void init(android.content.Context):25:25 -> a
+    26:33:void init(android.content.Context):28:28 -> a
+    34:38:void init(android.content.Context):33:33 -> a
+    1:4:void loadLibrary(java.lang.String):43:43 -> b
+    5:19:void loadLibrary(java.lang.String):44:44 -> b
+    20:30:void loadLibrary(java.lang.String):45:45 -> b
+    31:41:void loadLibrary(java.lang.String):46:46 -> b
+    42:45:void loadLibrary(java.lang.String):47:47 -> b
+    46:53:void loadLibrary(java.lang.String):50:50 -> b
+com.aitech.atak.AnyaPlugin.plugin.PluginTemplateLifecycle -> com.aitech.atak.AnyaPlugin.plugin.PluginTemplateLifecycle:
+    1:1:void <init>():14:14 -> <init>
+    2:2:void <init>(gov.tak.api.plugin.IServiceController):18:18 -> <init>
+    3:3:void <init>(gov.tak.api.plugin.IServiceController):24:24 -> <init>
+    4:5:void <init>(gov.tak.api.plugin.IServiceController):26:27 -> <init>
+    6:6:void <init>(gov.tak.api.plugin.IServiceController):29:29 -> <init>
+    7:7:void <init>(gov.tak.api.plugin.IServiceController):32:32 -> <init>
+com.aitech.atak.AnyaPlugin.plugin.R -> atakplugin.AnyaPlugin-main.k:
+com.aitech.atak.AnyaPlugin.plugin.R$array -> atakplugin.AnyaPlugin-main.k$a:
+com.aitech.atak.AnyaPlugin.plugin.R$color -> atakplugin.AnyaPlugin-main.k$b:
+com.aitech.atak.AnyaPlugin.plugin.R$dimen -> atakplugin.AnyaPlugin-main.k$c:
+com.aitech.atak.AnyaPlugin.plugin.R$drawable -> atakplugin.AnyaPlugin-main.k$d:
+com.aitech.atak.AnyaPlugin.plugin.R$id -> atakplugin.AnyaPlugin-main.k$e:
+com.aitech.atak.AnyaPlugin.plugin.R$layout -> atakplugin.AnyaPlugin-main.k$f:
+com.aitech.atak.AnyaPlugin.plugin.R$string -> atakplugin.AnyaPlugin-main.k$g:
+com.aitech.atak.AnyaPlugin.plugin.R$style -> atakplugin.AnyaPlugin-main.k$h:
+com.aitech.atak.AnyaPlugin.plugin.R$xml -> atakplugin.AnyaPlugin-main.k$i:
+com.atak.lint.library.BuildConfig -> atakplugin.AnyaPlugin-main.h:
+# {"id":"sourceFile","fileName":"BuildConfig.java"}
+    boolean DEBUG -> a
+    java.lang.String BUILD_TYPE -> c
+    java.lang.String LIBRARY_PACKAGE_NAME -> b
+    0:65535:void <init>():6:6 -> <init>
+com.atak.lint.library.R -> atakplugin.AnyaPlugin-main.l:

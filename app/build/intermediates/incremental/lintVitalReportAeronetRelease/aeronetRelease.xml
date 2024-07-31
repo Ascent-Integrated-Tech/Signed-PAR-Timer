@@ -1,0 +1,56 @@
+<variant
+    name="aeronetRelease"
+    package="com.aitech.atak.AnyaPlugin.plugin"
+    minSdkVersion="24"
+    targetSdkVersion="33"
+    shrinking="true"
+    mergedManifest="build/intermediates/merged_manifest/aeronetRelease/AndroidManifest.xml"
+    manifestMergeReport="build/outputs/logs/manifest-merger-aeronet-release-report.txt"
+    proguardFiles="proguard-gradle.txt:proguard-gradle-repackage.txt"
+    partialResultsDir="build/intermediates/lint_vital_partial_results/aeronetRelease/out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin"
+        resDirectories="src/main/res"
+        assetsDirectories="src/main/assets"/>
+    <sourceProvider
+        manifest="src/aeronet/AndroidManifest.xml"
+        javaDirectories="src/aeronet/java:src/aeronet/kotlin"
+        resDirectories="src/aeronet/res"
+        assetsDirectories="src/aeronet/assets"/>
+    <sourceProvider
+        manifest="build-types/release/AndroidManifest.xml"
+        javaDirectories="build-types/release/java:build-types/release/kotlin"
+        resDirectories="build-types/release/res"
+        assetsDirectories="build-types/release/assets"/>
+    <sourceProvider
+        manifest="src/aeronetRelease/AndroidManifest.xml"
+        javaDirectories="src/aeronetRelease/java:src/aeronetRelease/kotlin"
+        resDirectories="src/aeronetRelease/res"
+        assetsDirectories="src/aeronetRelease/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <resValues>
+    <resValue
+        type="string"
+        name="versionName"
+        value="0.8 (59a3ec1f) - [5.1.0]" />
+  </resValues>
+  <manifestPlaceholders>
+    <placeholder
+        name="atakApiVersion"
+        value="com.atakmap.app@5.1.0.AERONET" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="build/intermediates/javac/aeronetRelease/classes:build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/aeronetRelease/R.jar"
+      applicationId="com.aitech.atak.AnyaPlugin.plugin.aeronet"
+      generatedSourceFolders="build/generated/ap_generated_sources/aeronetRelease/out:build/generated/aidl_source_output_dir/aeronetRelease/out:build/generated/source/buildConfig/aeronet/release:build/generated/renderscript_source_output_dir/aeronetRelease/out"
+      generatedResourceFolders="build/generated/res/rs/aeronet/release:build/generated/res/resValues/aeronet/release">
+  </mainArtifact>
+</variant>

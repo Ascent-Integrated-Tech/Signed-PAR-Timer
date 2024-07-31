@@ -1,0 +1,56 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aitech.atak.AnyaPlugin.plugin.natosof"
+4    android:versionCode="1722456039"
+5    android:versionName="0.8 (59a3ec1f) - [5.1.0]" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml:6:5-26:19
+12        android:allowBackup="false"
+12-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml:7:9-36
+13        android:description="@string/app_desc"
+13-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml:10:9-47
+14        android:extractNativeLibs="true"
+14-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml:11:9-41
+15        android:icon="@drawable/oxygen_mask"
+15-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml:8:9-45
+16        android:label="@string/app_name"
+16-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml:9:9-41
+17        android:theme="@style/AppTheme" >
+17-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml:12:9-40
+18        <meta-data
+19            android:name="plugin-api"
+19-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml:13:20-45
+20            android:value="com.atakmap.app@5.1.0.NATOSOF" />
+20-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml:13:46-79
+21        <meta-data
+21-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml:14:9-78
+22            android:name="app_desc"
+22-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml:14:20-43
+23            android:value="@string/app_desc" />
+23-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml:14:44-76
+24
+25        <!-- allow for plugin discovery -->
+26        <activity
+26-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml:18:8-23:19
+27            android:name="com.atakmap.app.component"
+27-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml:18:18-58
+28            android:exported="true" >
+28-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml:19:40-63
+29            <intent-filter android:label="@string/app_name" >
+29-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml:20:12-22:28
+29-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml:20:27-59
+30                <action android:name="com.atakmap.app.component" />
+30-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml:21:15-66
+30-->/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/src/main/AndroidManifest.xml:21:23-63
+31            </intent-filter>
+32        </activity>
+33    </application>
+34
+35</manifest>

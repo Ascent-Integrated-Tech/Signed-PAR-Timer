@@ -1,0 +1,4 @@
+#Wed Jul 31 15:01:46 CDT 2024
+base.0=/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/build/intermediates/dex/norRelease/minifyNorReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

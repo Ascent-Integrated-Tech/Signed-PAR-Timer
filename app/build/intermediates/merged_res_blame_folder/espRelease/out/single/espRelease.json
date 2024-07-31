@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "com.aitech.atak.AnyaPlugin.plugin.app-merged_res-6:/drawable_ic_launcher.png.flat",
+        "source": "com.aitech.atak.AnyaPlugin.plugin.app-main-9:/drawable/ic_launcher.png"
+    },
+    {
+        "merged": "com.aitech.atak.AnyaPlugin.plugin.app-merged_res-6:/drawable_ic_start.xml.flat",
+        "source": "com.aitech.atak.AnyaPlugin.plugin.app-main-9:/drawable/ic_start.xml"
+    },
+    {
+        "merged": "com.aitech.atak.AnyaPlugin.plugin.app-merged_res-6:/drawable_new_dark_button_bg.xml.flat",
+        "source": "com.aitech.atak.AnyaPlugin.plugin.app-main-9:/drawable/new_dark_button_bg.xml"
+    },
+    {
+        "merged": "com.aitech.atak.AnyaPlugin.plugin.app-merged_res-6:/layout_main_layout.xml.flat",
+        "source": "com.aitech.atak.AnyaPlugin.plugin.app-main-9:/layout/main_layout.xml"
+    },
+    {
+        "merged": "com.aitech.atak.AnyaPlugin.plugin.app-merged_res-6:/drawable_timer.png.flat",
+        "source": "com.aitech.atak.AnyaPlugin.plugin.app-main-9:/drawable/timer.png"
+    },
+    {
+        "merged": "com.aitech.atak.AnyaPlugin.plugin.app-merged_res-6:/xml_preferences.xml.flat",
+        "source": "com.aitech.atak.AnyaPlugin.plugin.app-main-9:/xml/preferences.xml"
+    },
+    {
+        "merged": "com.aitech.atak.AnyaPlugin.plugin.app-merged_res-6:/drawable_ic_reset.xml.flat",
+        "source": "com.aitech.atak.AnyaPlugin.plugin.app-main-9:/drawable/ic_reset.xml"
+    },
+    {
+        "merged": "com.aitech.atak.AnyaPlugin.plugin.app-merged_res-6:/xml_com_android_vending_archive_opt_out.xml.flat",
+        "source": "com.aitech.atak.AnyaPlugin.plugin.app-main-9:/xml/com_android_vending_archive_opt_out.xml"
+    },
+    {
+        "merged": "com.aitech.atak.AnyaPlugin.plugin.app-merged_res-6:/drawable_rounded_background.xml.flat",
+        "source": "com.aitech.atak.AnyaPlugin.plugin.app-main-9:/drawable/rounded_background.xml"
+    },
+    {
+        "merged": "com.aitech.atak.AnyaPlugin.plugin.app-merged_res-6:/drawable_new_dark_button_selected.xml.flat",
+        "source": "com.aitech.atak.AnyaPlugin.plugin.app-main-9:/drawable/new_dark_button_selected.xml"
+    },
+    {
+        "merged": "com.aitech.atak.AnyaPlugin.plugin.app-merged_res-6:/drawable_ic_stop.xml.flat",
+        "source": "com.aitech.atak.AnyaPlugin.plugin.app-main-9:/drawable/ic_stop.xml"
+    },
+    {
+        "merged": "com.aitech.atak.AnyaPlugin.plugin.app-merged_res-6:/drawable_new_dark_button_disabled.xml.flat",
+        "source": "com.aitech.atak.AnyaPlugin.plugin.app-main-9:/drawable/new_dark_button_disabled.xml"
+    },
+    {
+        "merged": "com.aitech.atak.AnyaPlugin.plugin.app-merged_res-6:/drawable_oxygen_mask.png.flat",
+        "source": "com.aitech.atak.AnyaPlugin.plugin.app-main-9:/drawable/oxygen_mask.png"
+    },
+    {
+        "merged": "com.aitech.atak.AnyaPlugin.plugin.app-merged_res-6:/drawable_button_background.xml.flat",
+        "source": "com.aitech.atak.AnyaPlugin.plugin.app-main-9:/drawable/button_background.xml"
+    },
+    {
+        "merged": "com.aitech.atak.AnyaPlugin.plugin.app-merged_res-6:/drawable_ic_pause.xml.flat",
+        "source": "com.aitech.atak.AnyaPlugin.plugin.app-main-9:/drawable/ic_pause.xml"
+    },
+    {
+        "merged": "com.aitech.atak.AnyaPlugin.plugin.app-merged_res-6:/drawable_nav_radio.png.flat",
+        "source": "com.aitech.atak.AnyaPlugin.plugin.app-main-9:/drawable/nav_radio.png"
+    },
+    {
+        "merged": "com.aitech.atak.AnyaPlugin.plugin.app-merged_res-6:/drawable_btn_gray.xml.flat",
+        "source": "com.aitech.atak.AnyaPlugin.plugin.app-main-9:/drawable/btn_gray.xml"
+    }
+]
