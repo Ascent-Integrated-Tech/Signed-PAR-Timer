@@ -1,0 +1,11 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.atakmap.android.gui.PanListPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:key="timer_length"
+        android:title="Timer length"
+        android:summary="Set the timer length in minutes"
+        android:defaultValue="10"
+        android:entries="@array/timer_length_entries"
+        android:entryValues="@array/timer_length_values" />
+</PreferenceScreen>
