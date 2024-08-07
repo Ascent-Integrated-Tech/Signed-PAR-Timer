@@ -1,4 +1,4 @@
-# The proguard configuration file for the following section is /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/proguard-gradle.txt
+# The proguard configuration file for the following section is /home/cass/Documents/TAK/ATAK-CIV-5.1.0.17-SDK/samples/Signed-PAR-Timer/app/proguard-gradle.txt
 ######################################################################
 ## Skip down to the 'User Section'
 ## Messing with any items in the 'System Section' will void the warranty
@@ -96,16 +96,16 @@
 ######################################################################
 
 
-# End of content from /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/proguard-gradle.txt
-# The proguard configuration file for the following section is /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/proguard-gradle-repackage.txt
--repackageclasses atakplugin.AnyaPlugin-main
-# End of content from /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/proguard-gradle-repackage.txt
-# The proguard configuration file for the following section is /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/build/intermediates/aapt_proguard_file/civRelease/aapt_rules.txt
+# End of content from /home/cass/Documents/TAK/ATAK-CIV-5.1.0.17-SDK/samples/Signed-PAR-Timer/app/proguard-gradle.txt
+# The proguard configuration file for the following section is /home/cass/Documents/TAK/ATAK-CIV-5.1.0.17-SDK/samples/Signed-PAR-Timer/app/proguard-gradle-repackage.txt
+-repackageclasses atakplugin.Signed-PAR-Timer
+# End of content from /home/cass/Documents/TAK/ATAK-CIV-5.1.0.17-SDK/samples/Signed-PAR-Timer/app/proguard-gradle-repackage.txt
+# The proguard configuration file for the following section is /home/cass/Documents/TAK/ATAK-CIV-5.1.0.17-SDK/samples/Signed-PAR-Timer/app/build/intermediates/aapt_proguard_file/civRelease/aapt_rules.txt
 -keep class com.atakmap.app.component { <init>(); }
 -keep class com.atakmap.android.gui.PanListPreference { <init>(...); }
 
 
-# End of content from /Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app/build/intermediates/aapt_proguard_file/civRelease/aapt_rules.txt
+# End of content from /home/cass/Documents/TAK/ATAK-CIV-5.1.0.17-SDK/samples/Signed-PAR-Timer/app/build/intermediates/aapt_proguard_file/civRelease/aapt_rules.txt
 # The proguard configuration file for the following section is <unknown>
 -ignorewarnings
 # End of content from <unknown>

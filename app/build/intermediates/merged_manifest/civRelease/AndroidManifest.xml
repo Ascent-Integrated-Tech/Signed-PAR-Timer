@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.aitech.atak.AnyaPlugin.plugin"
-    android:versionCode="1722456039"
-    android:versionName="0.8 (59a3ec1f) - [5.1.0]" >
+    android:versionCode="1722457022"
+    android:versionName="0.8 (4acec198) - [5.1.0]" >
 
     <uses-sdk
         android:minSdkVersion="24"

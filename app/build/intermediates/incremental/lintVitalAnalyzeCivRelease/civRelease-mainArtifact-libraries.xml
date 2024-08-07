@@ -1,14 +1,14 @@
 <libraries>
   <library
-      name="__local_aars__:/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/main.jar:unspecified@jar"
-      jars="/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/main.jar"
-      resolved="__local_aars__:/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/main.jar:unspecified"
+      name="__local_aars__:/home/cass/Documents/TAK/ATAK-CIV-5.1.0.17-SDK/main.jar:unspecified@jar"
+      jars="/home/cass/Documents/TAK/ATAK-CIV-5.1.0.17-SDK/main.jar"
+      resolved="__local_aars__:/home/cass/Documents/TAK/ATAK-CIV-5.1.0.17-SDK/main.jar:unspecified"
       provided="true"/>
   <library
       name=":takdevlint:@aar"
-      jars="/Users/tristin/.gradle/caches/transforms-3/f25f8f6c9eca2029a0f44fc2c1518135/transformed/takdevlint/jars/classes.jar"
+      jars="/home/cass/.gradle/caches/transforms-3/f25f8f6c9eca2029a0f44fc2c1518135/transformed/takdevlint/jars/classes.jar"
       resolved=":takdevlint:"
-      folder="/Users/tristin/.gradle/caches/transforms-3/f25f8f6c9eca2029a0f44fc2c1518135/transformed/takdevlint"
+      folder="/home/cass/.gradle/caches/transforms-3/f25f8f6c9eca2029a0f44fc2c1518135/transformed/takdevlint"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

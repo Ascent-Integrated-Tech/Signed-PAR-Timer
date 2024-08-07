@@ -1,12 +1,12 @@
 <lint-module
     format="1"
-    dir="/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/samples/AnyaPlugin-main/app"
+    dir="/home/cass/Documents/TAK/ATAK-CIV-5.1.0.17-SDK/samples/Signed-PAR-Timer/app"
     name=":app"
     type="APP"
-    maven="AnyaPlugin-main:app:"
+    maven="Signed-PAR-Timer:app:"
     gradle="7.4.2"
     buildFolder="build"
-    bootClassPath="/Users/tristin/Library/Android/sdk/platforms/android-33/android.jar:/Users/tristin/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    bootClassPath="/home/cass/Android/Sdk/platforms/android-33/android.jar:/home/cass/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar"
     javaSourceLevel="1.8"
     compileTarget="android-33">
   <lintOptions

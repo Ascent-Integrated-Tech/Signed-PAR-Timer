@@ -66,7 +66,9 @@ public class AnyaPluginComponent extends DropDownMapComponent  {
             throw new IllegalArgumentException("IServiceController cannot be null");
         }
         this.serviceController = serviceController;
-        this.handler = new Handler(Looper.getMainLooper()); // Ensure Handler is created on main thread
+        //this.handler = new Handler(Looper.getMainLooper()); // Ensure Handler is created on main thread
+        initializeHandler();
+        
         this.broadcastReceiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {
@@ -74,6 +76,20 @@ public class AnyaPluginComponent extends DropDownMapComponent  {
                 toggleOverlay();
             }
         };
+    }
+
+    private void initializeHandler() {
+        try {
+            Log.d(TAG, "Initializing Handler");
+            if (Looper.myLooper() == null) {
+                Log.d(TAG, "Looper not prepared, preparing now");
+                Looper.prepare();
+            }
+            this.handler = new Handler(Looper.getMainLooper());
+            Log.d(TAG, "Handler initialized successfully");
+        } catch (Exception e) {
+            Log.e(TAG, "Error initializing Handler", e);
+        }
     }
 
     @Override

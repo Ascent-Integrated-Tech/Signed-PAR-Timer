@@ -40,7 +40,7 @@
     <resValue
         type="string"
         name="versionName"
-        value="0.8 (59a3ec1f) - [5.1.0]" />
+        value="0.8 (4acec198) - [5.1.0]" />
   </resValues>
   <manifestPlaceholders>
     <placeholder

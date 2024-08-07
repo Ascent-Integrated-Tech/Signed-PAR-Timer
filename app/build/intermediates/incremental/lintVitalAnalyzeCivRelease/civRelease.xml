@@ -7,7 +7,7 @@
     mergedManifest="build/intermediates/merged_manifest/civRelease/AndroidManifest.xml"
     proguardFiles="proguard-gradle.txt:proguard-gradle-repackage.txt"
     partialResultsDir="build/intermediates/lint_vital_partial_results/civRelease/out"
-    desugaredMethodsFiles="/Users/tristin/.gradle/caches/transforms-3/5434403a39ad8c540506879dc8b3cfe3/transformed/D8BackportedDesugaredMethods.txt">
+    desugaredMethodsFiles="/home/cass/.gradle/caches/transforms-3/5434403a39ad8c540506879dc8b3cfe3/transformed/D8BackportedDesugaredMethods.txt">
   <buildFeatures
       namespacing="REQUIRED"/>
   <sourceProviders>
@@ -40,7 +40,7 @@
     <resValue
         type="string"
         name="versionName"
-        value="0.8 (59a3ec1f) - [5.1.0]" />
+        value="0.8 (4acec198) - [5.1.0]" />
   </resValues>
   <manifestPlaceholders>
     <placeholder

@@ -1,9 +1,9 @@
 <dependencies>
   <compile
-      roots="__local_aars__:/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/main.jar:unspecified@jar,:takdevlint:@aar">
+      roots="__local_aars__:/home/cass/Documents/TAK/ATAK-CIV-5.1.0.17-SDK/main.jar:unspecified@jar,:takdevlint:@aar">
     <dependency
-        name="__local_aars__:/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/main.jar:unspecified@jar"
-        simpleName="__local_aars__:/Users/tristin/Downloads/ATAK-CIV-5.1.0.17-SDK/main.jar"/>
+        name="__local_aars__:/home/cass/Documents/TAK/ATAK-CIV-5.1.0.17-SDK/main.jar:unspecified@jar"
+        simpleName="__local_aars__:/home/cass/Documents/TAK/ATAK-CIV-5.1.0.17-SDK/main.jar"/>
     <dependency
         name=":takdevlint:@aar"
         simpleName=":takdevlint"/>
